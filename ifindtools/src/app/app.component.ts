@@ -20,8 +20,14 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Chat',
+      url: '/chat',
+      icon: 'send'
+
     }
-  ];
+];
 
   constructor(
     private platform: Platform,
