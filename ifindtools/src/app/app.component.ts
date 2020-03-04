@@ -24,7 +24,13 @@ export class AppComponent {
     {
       title: 'Chat',
       url: '/chat',
-      icon: 'send'
+      icon: 'send',
+
+    },
+    {
+      title: 'Ferramentas',
+      url: '/ferramentas',
+      icon: 'build',
 
     }
 ];
